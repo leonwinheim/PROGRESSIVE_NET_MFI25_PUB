@@ -1,0 +1,20 @@
+# Basic utilities
+numpy
+pandas
+matplotlib
+seaborn
+imageio
+xlrd
+openpyxl
+
+# Machine learning & deep learning
+scikit-learn
+
+# Jupyter & Interactive Development
+jupyterlab
+ipython
+
+# Deep Learning Utilities
+tqdm            # Progress bars
+tensorboard     # Logging and visualization for PyTorch
+numpyro
