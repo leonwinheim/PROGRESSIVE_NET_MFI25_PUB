@@ -1,4 +1,4 @@
-# PROGRESSIVE NET (MFI25) PUBLICATION
+# PROGRESSIVE NET (MFI25) PUBLICATION REPO
 
 <p align="left">
     <img src="resources/progressive_net.png" width="100" style="vertical-align:middle; margin-right:10px;">
@@ -9,9 +9,9 @@
 
 
 Welcome to the supplementary repository for the publication 
-**"BNN Training as State Estimation: A Progressive Filtering Approach"**
-at MFI 2025, College Station, Texas!
-This repository contains all the code required to reproduce the publicated results for the proposed method. Additionally, you can find a minimum working example in form of a Jupyter Notebook to get started. 
+**"BNN Training as State Estimation: A Progressive Filtering Approach"** 
+at MFI 2025, College Station, Texas! The authors Leon Winheim and Uwe D. Hanebeck are with the Intelligent Sensor-Actuator Systems Lab (ISAS) at KIT, Germany.
+This repository contains all the code required to reproduce the publicated results for the proposed method. Additionally, you can find a [minimum working example](AA_minimum_working.ipynb) in form of a Jupyter Notebook to get started. 
 As the authors of the KBNN paper didn't publish their immplementation yet, the model code is not included here.
 If any questions remain unanswered, feel free to contact me under leon.winheim@kit.edu.
 
@@ -21,7 +21,6 @@ Note the following:
 
 - To reperform the UCI Regression experiments, please first generate csv files of the training data (description in the BB_benchmark_UCI.py file)
 - To use LCD samples, read the following subsection
-- Code for the KBNN has not yet bin published. If interested, contact the authors of the respective Paper
 
 ## Generating LCD samples
 To use the functionality of LCD based deterministic samples, you first need to generate them. A function for that is not yet available in Python. The two options are:
